@@ -1,5 +1,5 @@
 ##### Decomposing a system into several subsystems.
-![Subsystems](Images/sc_subsystem.png =600x)
+![Subsystems](Images/sc_subsystem.png)
 
 #### Subsystem
 well-defined **interfaces**, encapsulating state and behavior of contained classes
@@ -25,7 +25,7 @@ number of dependencies between 2 subsystems
 
 ##### example: how to decoupling between DB and other subsystem
 	
-![Subsystems](Images/decoupling.png =500x)
+![Subsystems](Images/decoupling.png)
 
 - _Storage_ shields _Database_ so that if _Database_ needs to be changed, other subsystems would not be impacted
 - additional complexity: use it only if the subsystem subjects to constant change
@@ -39,7 +39,7 @@ number of dependencies within a subsystem.
 
 ##### example
 
-![Subsystems](Images/high_cohesion.png =500x)
+![Subsystems](Images/high_cohesion.png)
 
 - only one dependecy of association between 2 subsystem
 
